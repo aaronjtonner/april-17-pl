@@ -1,4 +1,4 @@
-import { GatsbyImage } from "gatsby-plugin-image"
+import { GatsbyImage, StaticImage } from "gatsby-plugin-image"
 import React from "react"
 import styled from "styled-components"
 import { Container, Section, FlexMobileOpp } from "../../layoutComponents"
@@ -24,11 +24,12 @@ export default function ImageLeftDark({ subheader, title, body, image }) {
       <Section>
         <Container>
           <FlexMobileOpp>
-            <StyledImg
+            {/* <StyledImg
               image={image.localFile.childImageSharp.gatsbyImageData}
               alt={image.altText}
               className="stretch"
-            />
+            /> */}
+            <StaticImage src="../../../images/ph.jpg" className="stretch" />
             <Text className="spacing">
               <div>
                 <p className="subheader accent">{subheader}</p>

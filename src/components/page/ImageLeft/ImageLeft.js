@@ -17,11 +17,12 @@ export default function ImageLeft({ subheader, title, body, image }) {
     <Section>
       <Container>
         <FlexMobileOpp>
-          <StyledImg
+          <StaticImage src="../../../images/ph.jpg" className="stretch" />
+          {/* <StyledImg
             image={image.localFile.childImageSharp.gatsbyImageData}
             alt={image.altText}
             className="stretch"
-          />
+          /> */}
           <Text className="spacing">
             <div>
               <p className="subheader accent">{subheader}</p>

@@ -19,9 +19,9 @@ export default function index() {
   return (
     <Layout>
       <SEO title="home" description="" />
-      <HeroSlider />
+      {/* <HeroSlider />
       <MainServicesLinks />
-      {/* <AllServicesBanner /> */}
+      <AllServicesBanner />
       <ProductsImg
         subheader=""
         title="get the highest quality calgary landscape materials"
@@ -35,7 +35,7 @@ export default function index() {
       <Why />
       <Ebook title="download our landscaping ebook" href="" />
       <MainTestimonials />
-      <FaqFeatured />
+      <FaqFeatured /> */}
     </Layout>
   )
 }
